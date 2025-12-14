@@ -1,5 +1,6 @@
 # Landing Page
 ## Link:
+https://noah-gullo.github.io/landing-page/
 
 ## Description:
 Second project of The Odin Project. This project shows a basic static landing page that has a few images, a header/footer, and a bunch of information with styling and formatting.
