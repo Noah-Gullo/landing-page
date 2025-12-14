@@ -1,0 +1,161 @@
+* {
+    font-family: 'Roboto', 'Arial', sans-serif;
+}
+
+.header, .title {
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: -8px;
+}
+
+div .links {
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+    margin: 10px;
+    gap: 16px;
+}
+
+a {
+    color: #E5E7EB;    
+    font-size: 18px;
+    text-decoration: none;
+}
+.header .logo, .title .container {
+    color: #F9FAF8;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;   
+}
+
+.title {
+    display: flex;
+    justify-content: center; 
+    gap: 180px;
+    margin: -8px;
+    padding-top: 32px;
+}
+
+.title .container #hero-text {
+    width: 300px;
+    font-size: 48px;
+    font-weight: bold;   
+}
+
+.title .container #hero-subtext {
+    width: 400px;
+}
+
+.title .container button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 16px;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    align-self: baseline;
+}
+
+.info #info-title {
+    font-weight: 900;
+    font-size: 36px;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.img-subtexts {
+    color: #2f2f2f;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.img-subtexts p {
+    width: 200px;
+}
+
+.quote{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: -8px;
+}
+
+.quote #testimonial, .quote #testimonial {
+    color: #1f2937;
+    font-size: 36px;
+}
+
+.quote #testimonial {
+    padding: 16px;
+    width: 750px;
+    flex-wrap: wrap;
+    font-weight: 300;
+}
+
+.quote #source {
+    font-weight: 900;
+    margin-left: 550px;
+}
+
+.action{
+    background-color: #3882f6;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 15px;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.action .container #call-to-action{
+    font-weight: 1000;
+}
+
+.action div {
+    display: flex;
+    margin: 25px;
+    flex-direction: column;
+}
+
+.action button {
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 2px solid #f9faf8;
+    border-radius: 10px;
+    align-self: center;
+}
+
+.footer {
+    background-color: #1f2937;
+    margin: -8px;
+    padding: 16px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    color: #f9faf8
+}
